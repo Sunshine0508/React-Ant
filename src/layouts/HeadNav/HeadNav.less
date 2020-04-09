@@ -1,0 +1,57 @@
+#HeadNav {
+  height: 50px;
+  background: #444;
+  color: #fff;
+
+  .nav-wrap {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    height: 50px;
+    margin: 0 auto;
+
+    .nav-logo-wrap {
+      flex: 0 0 200px;
+      font-size: 26px;
+      width: 26px;
+      //height:50px;
+      vertical-align: top;
+      margin-left: 12px;
+      margin-top: 4px;
+    }
+
+    .nav-list-wrap {
+      flex: 1;
+      height: 50px;
+      text-align: right;
+      vertical-align: right;
+
+      .ant-menu {
+        color: #fff;
+        background: transparent;
+        display: inline-block;
+        height: 50px;
+      }
+
+      .ant-menu-horizontal {
+        border-color: transparent;
+      }
+
+      .ant-menu-horizontal .ant-menu-item,
+      .ant-menu-horizontal .ant-menu-submenu {
+        margin-top: 0;
+      }
+
+      .ant-menu-horizontal {
+        line-height: 47px;
+      }
+
+      /deep/.ant-menu-item-only-child>a {
+        color: #fff;
+      }
+      /deep/.ant-menu-horizontal > .ant-menu-item-selected > a {
+        color: #1890ff!important;
+    }
+    }
+  }
+}
