@@ -29,13 +29,13 @@ export default class HeaderNav extends Component{
                 <Link to="/home">首页</Link>
               </Menu.Item>
               <Menu.Item key="about">
-                <Link to="/home/about">关于我</Link>
+                <Link to="/about">关于我</Link>
               </Menu.Item>
               <Menu.Item key="vue">
-                <Link to="/home/vue">VUE</Link>
+                <Link to="/vue">VUE</Link>
               </Menu.Item>
               <Menu.Item key="react">
-                <Link to="/home/react">React</Link>
+                <Link to="/react">React</Link>
               </Menu.Item>
             </Menu>
           </div>
